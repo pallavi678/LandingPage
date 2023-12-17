@@ -1,0 +1,59 @@
+body{
+    background-image: url("images/Construction_background.webp");
+    background-size: cover;
+    height: 100vh;
+}
+@media screen and (max-width:499px){
+    body{
+        height:200vh;
+    }
+}
+#heading{
+    margin-top: 10px;
+    margin-left: 15px;
+    color:#0174BE;
+    font-size: 50px;
+}
+#span{
+    color:#FFC436;
+}
+li{
+    font-size: 20px;
+    color:white;
+    text-align: right;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+li:hover{
+    height:80px;
+    width:80px;
+    background-color: #0174BE;
+    border-radius: 5%;
+}
+#para{
+    margin-top: 10px;
+    margin-left: 50px;
+    width:700px;
+    color:white;
+    font-size: 30px;
+}
+.listItems{
+    width:500px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+#button{
+    color:#0174BE;
+    background-color: transparent;
+    border:none;
+    margin-left: 50px;
+    font-size: 30px;
+}
+#button:hover{
+    color:white;
+    background-color: #0174BE;
+    border-radius: 5%;
+}
